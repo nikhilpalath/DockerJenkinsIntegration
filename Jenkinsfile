@@ -42,7 +42,7 @@ node {
 	}*/
     stage('DockerBuild'){
 	
-	app = docker.build("mannam786/mydynamicapp")
+	app = docker.build("nikhilpalath/mydynamicapp")
 	
 	
 	}
@@ -59,7 +59,7 @@ node {
 	stage('Runnning'){
 	
 	sh '''
-	  docker run -d -p 6666:8080 mannam786/mydynamicapp
+	  docker run -d -p 6666:8080 nikhilpalath/mydynamicapp
 	  
 
 	'''
