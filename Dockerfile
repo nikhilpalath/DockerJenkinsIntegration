@@ -1,6 +1,6 @@
 FROM tomcat:8.0-alpine
 
-MAINTAINER author  author@gmail.com
+MAINTAINER palath.nikhil@gmail.com
 
 
 
